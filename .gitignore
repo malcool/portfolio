@@ -6,3 +6,6 @@ assets/img/*
 *.swp
 .DS_Store
 .env*
+
+# Ignore .env file containing credentials.
+.env*
