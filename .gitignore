@@ -9,3 +9,5 @@ assets/img/*
 
 # Ignore .env file containing credentials.
 .env*
+
+.gitignore*
