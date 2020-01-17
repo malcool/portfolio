@@ -4,3 +4,25 @@
 @import url("components/bootstrap.css");
 @import url("components/video-header.css");
 @import url("components/navbar.css");
+
+/* Link de-style */
+a {
+  color: inherit;
+  text-decoration: inherit;
+  text-decoration: none ;
+}
+
+/* Vimeo */
+.boxshadow {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* Print Style*/
+.print {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.print:hover { 
+  transform: scale(1.02); 
+}
